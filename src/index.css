@@ -217,7 +217,9 @@ code {
   
   background-image: url("./assets/images/android1.png");
 }
-
+.link {
+  cursor: pointer;
+}
 
 
 

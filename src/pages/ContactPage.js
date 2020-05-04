@@ -52,23 +52,23 @@ class ContactPage extends React.Component {
                 
                 <Hero title="Contact Me" color="warning"/>
                 <Content>
-                    <Container className=" "  fluid={true}>
-                    <Row  className="contact-handle mx-auto  ">
-                        <Col className=" my-auto justify-content-center ">
-                        <a href="https://github.com/JowelTisso" target="_blank" rel="noopener noreferrer">
-                        <img className=" social m-3 " src={github} alt={github}/>
-                        </a>
-                        <a href="https://instagram.com/jowel_is_dev" target="_blank" rel="noopener noreferrer">
-                        <img className=" social m-3" src={instagram} alt={instagram}/>
-                        </a>
-                        <a href="https://twitter.com/joweltisso" target="_blank" rel="noopener noreferrer">
-                        <img className=" social m-3" src={twitter} alt={twitter}/>
-                        </a>
-                        <a href="https://linkedin.com/in/joweltisso" target="_blank" rel="noopener noreferrer">
-                        <img className=" social m-3" src={linkedin} alt={linkedin}/>
-                        </a>
-                        </Col>
-                    </Row>
+                    <Container className=" " fluid={true}>
+                        <Row className="contact-handle mx-auto  ">
+                            <Col className=" my-auto justify-content-center ">
+                                <a href="https://github.com/JowelTisso" target="_blank" rel="noopener noreferrer">
+                                    <img className=" social m-3 " src={github} alt={github} />
+                                </a>
+                                <a href="https://instagram.com/jowel_is_dev" target="_blank" rel="noopener noreferrer">
+                                    <img className=" social m-3" src={instagram} alt={instagram} />
+                                </a>
+                                <a href="https://twitter.com/joweltisso" target="_blank" rel="noopener noreferrer">
+                                    <img className=" social m-3" src={twitter} alt={twitter} />
+                                </a>
+                                <a href="https://linkedin.com/in/joweltisso" target="_blank" rel="noopener noreferrer">
+                                    <img className=" social m-3" src={linkedin} alt={linkedin} />
+                                </a>
+                            </Col>
+                        </Row>
                     </Container>
                 </Content>
             </div>

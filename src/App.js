@@ -8,40 +8,33 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ProjectPage from './pages/ProjectPage';
-import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
-import symbols from './assets/images/symbols3.png';
-import bracket1 from './assets/images/parallaxicon/coding1.png';
-import bracket2 from './assets/images/parallaxicon/coding2.png';
-import bracket3 from './assets/images/parallaxicon/coding3.png';
-import bracket4 from './assets/images/parallaxicon/coding4.png';
-import android from './assets/images/android.png';
-import reacticon from './assets/images/reacticon2.png';
-import background from './assets/images/as.jpg'
+
+
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: 'Jowel Tisso',
-      headerLinks: [
-        { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
-      ],
-      home: {
-        title: 'Android & Front-end Developer',
-        subTitle: 'My Projects in the journey of being relentless',
-        text: 'Check out my projects below'
-      },
-      about: {
-        title: 'About Me'
-      },
-      contact: {
-        title: 'Let\'s Talk'
-      }
+      constructor(props) {
+        super(props);
+        this.state = {
+          title: 'Jowel Tisso',
+          headerLinks: [
+            { title: 'Home', path: '/' },
+            { title: 'About', path: '/about' },
+            { title: 'Contact', path: '/contact' }
+          ],
+          home: {
+            title: 'Android & Front-end Developer',
+            subTitle: 'My Projects in the journey of being relentless',
+            text: 'Check out my projects below'
+          },
+          about: {
+            title: 'About Me'
+          },
+          contact: {
+            title: 'Let\'s Talk'
+          }
 
-    }
-  }
+        }
+      }
 
   render() {
     return (
@@ -54,7 +47,7 @@ class App extends React.Component {
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto " >
 
-            <Link
+              <Link
 
                 activeClass="active"
                 to="homepage"
@@ -63,30 +56,30 @@ class App extends React.Component {
                 smooth={true}
                 offset={-70}
                 duration={500}> <Nav.Link href="#"> Home </Nav.Link> </Link>
-                <Link
+              <Link
 
                 activeClass="active"
-                
+
                 to="projectpage"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}> <Nav.Link href="#"> Projects </Nav.Link> </Link>
 
-                <Link
+              <Link
 
                 activeClass="active"
-                
+
                 to="aboutpage"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}>  <Nav.Link href="#"> About </Nav.Link> </Link>
 
-                <Link
+              <Link
 
                 activeClass="active"
-                
+
                 to="contactpage"
                 spy={true}
                 smooth={true}
@@ -98,96 +91,27 @@ class App extends React.Component {
 
         </Navbar>
 
-            <div className="nav-menu " />
+        <div className="nav-menu " />
 
-            <HomePage
-              title={this.state.home.title}
-              subTitle={this.state.home.subTitle}
-              text={this.state.home.text}
-              id="homepage"
-            />
-            <ProjectPage
-              id="projectpage"
-            />
+        <HomePage
+          title={this.state.home.title}
+          subTitle={this.state.home.subTitle}
+          text={this.state.home.text}
+          id="homepage"
+        />
+        <ProjectPage
+          id="projectpage"
+        />
 
-            <AboutPage
-              id="aboutpage"
-            />
-
-
-            <ContactPage
-              id="contactpage"
-            />
-            <Footer />
+        <AboutPage
+          id="aboutpage"
+        />
 
 
-
-
-        {/* <Parallax ref={ref => (this.parallax = ref)} className=" bg-dark  " pages={5.5} >
-
-          <ParallaxLayer offset={0} speed={0} factor={6} style={{ backgroundImage: `url(${background})`,height:'100%', backgroundSize: 'cover',backgroundPosition:'center' }}/>
-          <ParallaxLayer offset={0} speed={1} factor={6} style={{ backgroundImage: `url(${symbols})`,height:'100%', backgroundSize: 'auto',backgroundPosition:''}}/>
-
-
-            <ParallaxLayer
-              className="border-secondary border"
-              offset={0}
-              speed={0}
-              style={{ backgroundColor: '' }}
-               >
-             
-
-            </ParallaxLayer>
-
-            <ParallaxLayer
-              className="border border-primary"
-              offset={1.1}
-              speed={0}
-              style={{ backgroundColor: '#' }}
-               >
-              
-            </ParallaxLayer>
-            <ParallaxLayer
-              className="border border-primary"
-              offset={2.2}
-              speed={0}
-              style={{ backgroundColor: '#' }}
-              
-            >
-            </ParallaxLayer>
-
-            <ParallaxLayer
-              className="border border-primary"
-              offset={3.5}
-              speed={0}
-              style={{ backgroundColor: '#' }}
-              
-            >
-            
-
-            </ParallaxLayer>
-
-
-            <ParallaxLayer
-              className="border border-primary"
-              offset={4.6}
-              speed={0}
-              style={{ backgroundColor: '#' }}
-               >
-
-            
-            </ParallaxLayer>
-
-           
-
-         
-
-
-        
-
-
-
-        </Parallax> */}
+        <ContactPage
+          id="contactpage"
+        />
+        <Footer />
 
 
       </div>
