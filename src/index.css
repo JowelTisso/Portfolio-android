@@ -11,3 +11,314 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cursor-pointer{
+  cursor: default;
+  height: 40px;
+  justify-content: center;
+}
+.nav-menu{
+  height: 60px;
+}
+.jumbo-height{
+  height: 450px;
+  padding-top: 85px;
+}
+.hero-title{
+  color: #ffab91;
+}
+.about-title{
+  color: #ffab91;
+}
+.project-title{
+  color: #80cbc4;
+}
+.contact-title{
+  color: #80cbc4;
+}
+.info-title {
+  color: #b2dfdb;
+  
+}
+.link-color {
+  color: #00e5ff;
+  text-decoration: none;
+}
+.nav-brand{
+  height: 40px;
+  line-height: 40px;
+}
+.nav-collapse{
+  height: 40px;
+}
+.nav-menu-hover:hover {
+  background-color: white;
+  color: black;
+}
+.social {
+  height: 40px;
+  width: 40px;
+  
+}
+.social-col {
+  height: fit-content;
+}
+
+
+.about-div {
+  height: 700px;
+  margin-top: 50px;
+}
+.about-info {
+  height: 250px;
+  width: 560px;
+  border-radius: 20px;
+  opacity: .7;
+  color: black;
+}
+.about-info-container {
+  height: 500px;
+}
+.homepage-container {
+  height: 700px;
+  
+}
+.icon {
+  height: 180px;
+  width: 180px;
+  margin-top: 150px;
+}
+
+.contact-container {
+  height: 580px;
+}
+.bottom-container {
+  background-image: url("./assets/images/pencil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.p-tag{
+  height: 700px;
+  text-align: center;
+  padding-top: 300px;
+  margin-bottom: 0;
+}
+.contact-handle {
+  height: 300px;
+  width: 420px;
+  border-radius: 25px;
+  background-color: rgb(231, 240, 238);
+
+}
+.row-carousel {
+  width: auto;
+  padding: 0px;
+}
+.j-card {
+  height: 480px;
+  margin-top: 70px;
+  margin-bottom: 240px;
+  
+
+}
+.j-card-img{
+  margin-top: 40px;
+  margin-left: 15px;
+  height: 350px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.j-card-image {
+  border-radius: 10px;
+  width: 180px;
+  height: 300px;
+  display: inline-block;
+}
+.j-card-image-left {
+  border-radius: 10px;
+  width: 160px;
+  height: 260px;
+  display: inline-block;
+}
+.j-card-image-right {
+  border-radius: 10px;
+  width: 160px;
+  height: 260px;
+  display: inline-block;
+  
+}
+.j-card-info {
+  width: 520px;
+  height: 480px;
+  border-radius: 20px;
+  opacity: .8;
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-left: 50px;
+  box-shadow: 0px 0px 15px 5px rgb(10, 10, 10);
+}
+.j-card-title {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: left;
+  color: #66bb6a;
+  
+}
+.j-card-sub-title {
+ font-size: 21px;
+ font-weight: 600;
+ text-align: left;
+ color: #66bb6a;
+}
+.j-card-about {
+  font-size: 18px;
+  
+  text-align: left;
+  color: rgb(252, 252, 252);
+ }
+
+ .para-one{
+  height: 50px;   
+}
+.card-container {
+  height: 200px;
+}
+
+
+
+.c {
+  position: absolute;
+  will-change: transform, opacity;
+  
+}
+.s {
+  position: absolute;
+  will-change: transform, opacity;
+  
+}
+.x {
+  position: absolute;
+  will-change: transform, opacity;
+
+}
+.front,
+.back {
+  background-size: cover;
+}
+
+.back {
+  
+  background-image: url("./assets/images/android.png");
+}
+
+.front {
+  
+  background-image: url("./assets/images/android1.png");
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:720px){
+  .icon{
+  margin-top: auto;
+  height: 120px;
+  width: 120px;
+
+  }
+  .card-container {
+    height: 200px;
+  }
+  .j-card {
+    height: 580px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  .j-card-img{
+    margin-top: 40px;
+    height: 200px;
+    width: 350px;
+  }
+  .j-card-image {
+    border-radius: 8 px;
+    width: 120px;
+    height: 180px;
+    
+  }
+  .j-card-image-left {
+    border-radius: 8 px;
+    width: 100px;
+    height: 160px;
+    
+  }
+  .j-card-image-right {
+    border-radius: 8 px;
+    width: 100px;
+    height: 160px;
+  }
+  .j-card-info {
+    width: auto;
+    height: 170px;
+    border-radius: 0px;
+    opacity: .8;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 0px 0px;
+   }
+  
+   .j-card-title {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    color: #66bb6a;
+  }
+  .j-card-sub-title {
+   font-size: 16px;
+   font-weight: 600;
+   text-align: left;
+   color: #66bb6a;
+  }
+  .j-card-about {
+    font-size: 13px;
+    text-align: left;
+    color: rgb(241, 239, 239);
+   }
+
+   .about-div {
+    height: 500px;
+    margin-top: 18px;
+  }
+
+  .about-info {
+    width: 320px;
+    font-size: 19px;
+    
+  }
+  .about-info-container {
+    height: 400px;
+  }
+
+  .contact-handle {
+    height: 250px;
+    width: 320px;
+  
+  }
+  .contact-container {
+    height: 420px;
+  }
+}
+
+@media screen and (min-width :721px ) and (max-width:1069px){
+  .j-card{
+    height: 1020px;
+  }
+}
