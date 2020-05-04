@@ -35,7 +35,7 @@ class Carousel extends React.Component{
             },
             {
                 id: 1,
-                title: 'TTJC Participants App',
+                title: 'TTJC Participants App ( For Job Challenge)',
                 subTitle: 'An application for - ',
                 subTitle2: 'TeamTanayJobChallenge related participants',
                 stack : 'Stack : Android Studio, java',
