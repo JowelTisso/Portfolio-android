@@ -4,10 +4,9 @@ import CardInfo from './CardInfo';
 function Card(props) {
 
     return (
-        <div className=" justify-content-center j-card row mr-0  "  onClick={(e)=> props.click(props.item)}>
+        <div className=" justify-content-center  j-card row mr-0   "  onClick={(e)=> props.click(props.item)}>
            
-             <div className="j-card-img pt-0   ">
-
+             <div className="j-card-img pt-0  ">
 
 
                 <img className="j-card-image-left" src={props.item.imgSrcLeft} alt={props.item.imgSrcLeft} />
@@ -25,7 +24,8 @@ function Card(props) {
             subTitle2={props.item.subTitle2} 
             stack={props.item.stack}
             about1={props.item.about1}
-            link={props.item.link}
+            playstoreLink={props.item.playstoreLink}
+            githubLink={props.item.githubLink}
             linkcolor={props.item.linkcolor}
             />
         

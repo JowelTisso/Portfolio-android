@@ -29,7 +29,8 @@ class Carousel extends React.Component{
                 imgSrc: karbiCalendar,
                 imgSrcLeft: karbiCalendarLeft,
                 imgSrcRight: karbiCalendarRight,
-                link: 'https://play.google.com/store/apps/details?id=com.jangphong.hem.karbicalender2&hl=en_IN',
+                playstoreLink: 'https://play.google.com/store/apps/details?id=com.jangphong.hem.karbicalender2&hl=en_IN',
+                githubLink: 'https://github.com/JowelTisso/KarbiCalendar',
                 linkcolor:'primary',
                 selected: false
             },
@@ -51,7 +52,8 @@ class Carousel extends React.Component{
                 imgSrc: ttjcparticipants,
                 imgSrcLeft: ttjcparticipantsLeft,
                 imgSrcRight: ttjcparticipantsRight,
-                link: 'https://play.google.com/store/apps/details?id=com.job.challenge.ttjcParticipantsApp',
+                playstoreLink: 'https://play.google.com/store/apps/details?id=com.job.challenge.ttjcParticipantsApp',
+                githubLink: 'https://github.com/JowelTisso/TTJC-Participants-App',
                 linkcolor:'primary',
                 selected: false
             },

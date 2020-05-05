@@ -115,14 +115,14 @@ code {
   padding: 0px;
 }
 .j-card {
-  height: 480px;
+  height: auto;
   margin-top: 70px;
   margin-bottom: 240px;
   
 
 }
 .j-card-img{
-  margin-top: 40px;
+  margin-top: 80px;
   margin-left: 15px;
   height: 350px;
   width: 550px;
@@ -151,7 +151,7 @@ code {
 }
 .j-card-info {
   width: 520px;
-  height: 480px;
+  height: 520px;
   border-radius: 20px;
   opacity: .8;
   padding-left: 50px;
@@ -222,7 +222,11 @@ code {
 }
 
 
-
+.footer{
+  color: #ffab91;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: rgb(99, 3, 83);
+}
 
 
 
@@ -239,7 +243,7 @@ code {
     height: 200px;
   }
   .j-card {
-    height: 580px;
+    height: auto;
     margin-top: -10px;
     margin-bottom: 0px;
   }
@@ -267,7 +271,7 @@ code {
   }
   .j-card-info {
     width: auto;
-    height: 170px;
+    height: auto;
     border-radius: 0px;
     opacity: .8;
     padding-left: 20px;
@@ -297,7 +301,8 @@ code {
 
    .about-div {
     height: 500px;
-    margin-top: 18px;
+    margin-top: 100px;
+    
   }
 
   .about-info {
