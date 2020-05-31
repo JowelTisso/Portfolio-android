@@ -186,8 +186,6 @@ code {
   height: 200px;
 }
 
-
-
 .c {
   position: absolute;
   will-change: transform, opacity;
@@ -203,34 +201,16 @@ code {
   will-change: transform, opacity;
 
 }
-.front,
-.back {
-  background-size: cover;
-}
 
-.back {
-  
-  background-image: url("./assets/images/android.png");
-}
-
-.front {
-  
-  background-image: url("./assets/images/android1.png");
-}
 .link {
   cursor: pointer;
 }
-
 
 .footer{
   color: #ffab91;
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: rgb(99, 3, 83);
 }
-
-
-
-
 
 @media screen and (max-width:720px){
   .icon{

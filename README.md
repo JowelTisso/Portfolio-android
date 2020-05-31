@@ -1,2 +1,2 @@
 # Portfolio
-Take a look at my portfolio and see what i worked on
+Take a look at my [Portfolio](https://joweltissoportfolio.netlify.app/) and see what i have worked on

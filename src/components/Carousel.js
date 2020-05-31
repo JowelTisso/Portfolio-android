@@ -6,6 +6,9 @@ import karbiCalendarRight from '../assets/images/calendarRight.png';
 import ttjcparticipants from '../assets/images/ttjcparticipants.png';
 import ttjcparticipantsLeft from '../assets/images/participantLeft.png';
 import ttjcparticipantsRight from '../assets/images/participantRight.png';
+import instaScrape from '../assets/images/preview_day_1.png';
+import instaScrapeLeft from '../assets/images/preview_day_2.png';
+import instaScrapeRight from '../assets/images/preview_day_3.png';
 import Card from './Card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -21,8 +24,6 @@ class Carousel extends React.Component{
                 title: 'Karbi Calendar',
                 subTitle: 'A simple calendar in karbi language',
                 stack : 'Stack : Android Studio, java',
-                featureTitle : 'Features : ',
-                features : '1. Reminder 2. Notes with SQLite database 3. Notes',
                 about1 : 'It is a simple calendar in karbi language with some features as '
                 + 'reminder, notes with sqlite database, mini notes in date,'+
                 'version check with httpRequest using AsyncTask',
@@ -36,12 +37,10 @@ class Carousel extends React.Component{
             },
             {
                 id: 1,
-                title: 'TTJC Participants App ( For Job Challenge)',
+                title: 'TTJC Participants App ( For Job Challenge )',
                 subTitle: 'An application for - ',
                 subTitle2: 'TeamTanayJobChallenge related participants',
                 stack : 'Stack : Android Studio, java',
-                featuresTitle : 'Features',
-                features : '1. Using api to fetch participants list',
                 about1 : 'It displays the total number of participants '+
                 'in the challenge, all the participants are '+
                 'displayed in a list and it can be filtered '+
@@ -57,12 +56,28 @@ class Carousel extends React.Component{
                 linkcolor:'primary',
                 selected: false
             },
-           
+            {
+                id: 2,
+                title: 'InstaScrape ( For Job Challenge )',
+                subTitle: 'An email scraping app ',
+                subTitle2: 'which extracts email from instagram',
+                stack : 'Stack : Android Studio, kotlin',
+                about1 : 'A static email scraping app for instagram. '+
+                'This App focuses on email existing accounts with popular hashtags '+
+                'and extracts email from them. '+
+                'Scraped data can be saved in xls format. '+
+                'This app is made for educational purpose and not intended for commercial use,',
+                imgSrc: instaScrape,
+                imgSrcLeft: instaScrapeLeft,
+                imgSrcRight: instaScrapeRight,
+                playstoreLink: '',
+                githubLink: 'https://github.com/JowelTisso/InstaScrape',
+                linkcolor:'primary',
+                selected: false
+            },
         ]
     }    
     }
-
-
 
     handleCardClick = (id) => {
         //Spread operator is used here for getting dynamic array
@@ -84,7 +99,6 @@ class Carousel extends React.Component{
             items
         });
     
-    
     }
 
     makeItems = (items) => {
@@ -94,8 +108,6 @@ class Carousel extends React.Component{
         });
         
     }
-
-
 
     render(){
         return(

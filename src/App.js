@@ -51,7 +51,6 @@ class App extends React.Component {
 
                 activeClass="active"
                 to="homepage"
-                
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -102,18 +101,13 @@ class App extends React.Component {
         <ProjectPage
           id="projectpage"
         />
-
         <AboutPage
           id="aboutpage"
         />
-
-
         <ContactPage
           id="contactpage"
         />
         <Footer />
-
-
       </div>
 
 
