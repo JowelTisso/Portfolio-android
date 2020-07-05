@@ -11,7 +11,11 @@ function ProjectPageWeb(props) {
       <div id="web" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={tshirtstore} alt="Los Angeles" />
+            <img
+              style={{ width: "100%" }}
+              src={tshirtstore}
+              alt="tshirtstore"
+            />
             <div class=" p-2 mt-2 d-none d-md-block text-white">
               <a
                 className="btn btn-primary"
@@ -32,7 +36,11 @@ function ProjectPageWeb(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={mosumreport} alt="Chicago" />
+            <img
+              src={mosumreport}
+              alt="mosumreport"
+              style={{ width: "100%" }}
+            />
             <div class="p-2 mt-2 d-none d-md-block text-white">
               <a
                 className="btn btn-primary"
@@ -53,7 +61,11 @@ function ProjectPageWeb(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={recipeseeker} alt="New York" />
+            <img
+              src={recipeseeker}
+              alt="recipeseeker"
+              style={{ width: "100%" }}
+            />
             <div class="p-2 mt-2 d-none d-md-block text-white">
               <a
                 className="btn btn-primary"
