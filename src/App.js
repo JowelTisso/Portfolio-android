@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ProjectPage from "./pages/ProjectPage";
-import ProjectPageWeb from "./pages/ProjectPageWeb";
+// import ProjectPageWeb from "./pages/ProjectPageWeb";
 
 class App extends React.Component {
   constructor(props) {
