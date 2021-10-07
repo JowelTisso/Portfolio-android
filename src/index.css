@@ -1,53 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.cursor-pointer{
+.cursor-pointer {
   cursor: default;
   height: 40px;
   justify-content: center;
 }
-.nav-menu{
+.nav-menu {
   height: 60px;
 }
-.jumbo-height{
+.jumbo-height {
   height: 450px;
   padding-top: 85px;
 }
-.hero-title{
+.hero-title {
   color: #ffab91;
 }
-.about-title{
+.about-title {
   color: #ffab91;
 }
-.project-title{
+.project-title {
   color: #80cbc4;
 }
-.contact-title{
+.contact-title {
   color: #80cbc4;
 }
 .info-title {
   color: #b2dfdb;
-  
 }
 .link-color {
   color: #00e5ff;
   text-decoration: none;
 }
-.nav-brand{
+.nav-brand {
   height: 40px;
   line-height: 40px;
 }
-.nav-collapse{
+.nav-collapse {
   height: 40px;
 }
 .nav-menu-hover:hover {
@@ -57,12 +56,10 @@ code {
 .social {
   height: 40px;
   width: 40px;
-  
 }
 .social-col {
   height: fit-content;
 }
-
 
 .about-div {
   height: 700px;
@@ -72,7 +69,7 @@ code {
   height: 250px;
   width: 560px;
   border-radius: 20px;
-  opacity: .7;
+  opacity: 0.7;
   color: black;
 }
 .about-info-container {
@@ -80,7 +77,6 @@ code {
 }
 .homepage-container {
   height: 700px;
-  
 }
 .icon {
   height: 180px;
@@ -97,7 +93,7 @@ code {
   background-repeat: no-repeat;
   background-position: center;
 }
-.p-tag{
+.p-tag {
   height: 700px;
   text-align: center;
   padding-top: 300px;
@@ -108,7 +104,6 @@ code {
   width: 420px;
   border-radius: 25px;
   background-color: rgb(231, 240, 238);
-
 }
 .row-carousel {
   width: auto;
@@ -118,10 +113,8 @@ code {
   height: auto;
   margin-top: 70px;
   margin-bottom: 240px;
-  
-
 }
-.j-card-img{
+.j-card-img {
   margin-top: 80px;
   margin-left: 15px;
   height: 350px;
@@ -132,28 +125,27 @@ code {
 }
 .j-card-image {
   border-radius: 10px;
-  width: 180px;
-  height: 300px;
+  width: 200px;
+  height: 350px;
   display: inline-block;
 }
 .j-card-image-left {
   border-radius: 10px;
-  width: 160px;
-  height: 260px;
+  width: 180px;
+  height: 300px;
   display: inline-block;
 }
 .j-card-image-right {
   border-radius: 10px;
-  width: 160px;
-  height: 260px;
+  width: 180px;
+  height: 300px;
   display: inline-block;
-  
 }
 .j-card-info {
   width: 520px;
   height: 520px;
   border-radius: 20px;
-  opacity: .8;
+  opacity: 0.8;
   padding-left: 50px;
   padding-right: 30px;
   margin-left: 50px;
@@ -164,23 +156,22 @@ code {
   font-weight: 800;
   text-align: left;
   color: #66bb6a;
-  
 }
 .j-card-sub-title {
- font-size: 21px;
- font-weight: 600;
- text-align: left;
- color: #66bb6a;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: left;
+  color: #66bb6a;
 }
 .j-card-about {
   font-size: 18px;
-  
+
   text-align: left;
   color: rgb(252, 252, 252);
- }
+}
 
- .para-one{
-  height: 50px;   
+.para-one {
+  height: 50px;
 }
 .card-container {
   height: 200px;
@@ -189,35 +180,31 @@ code {
 .c {
   position: absolute;
   will-change: transform, opacity;
-  
 }
 .s {
   position: absolute;
   will-change: transform, opacity;
-  
 }
 .x {
   position: absolute;
   will-change: transform, opacity;
-
 }
 
 .link {
   cursor: pointer;
 }
 
-.footer{
+.footer {
   color: #ffab91;
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: rgb(99, 3, 83);
 }
 
-@media screen and (max-width:720px){
-  .icon{
-  margin-top: auto;
-  height: 120px;
-  width: 120px;
-
+@media screen and (max-width: 720px) {
+  .icon {
+    margin-top: auto;
+    height: 120px;
+    width: 120px;
   }
   .card-container {
     height: 200px;
@@ -227,7 +214,7 @@ code {
     margin-top: -10px;
     margin-bottom: 0px;
   }
-  .j-card-img{
+  .j-card-img {
     margin-top: 40px;
     height: 200px;
     width: 350px;
@@ -236,13 +223,11 @@ code {
     border-radius: 8 px;
     width: 120px;
     height: 180px;
-    
   }
   .j-card-image-left {
     border-radius: 8 px;
     width: 100px;
     height: 160px;
-    
   }
   .j-card-image-right {
     border-radius: 8 px;
@@ -253,42 +238,40 @@ code {
     width: auto;
     height: auto;
     border-radius: 0px;
-    opacity: .8;
+    opacity: 0.8;
     padding-left: 20px;
     padding-right: 15px;
     margin-left: 15px;
     margin-top: 0px;
     box-shadow: 0px 0px 0px 0px;
-   }
-  
-   .j-card-title {
+  }
+
+  .j-card-title {
     font-size: 24px;
     font-weight: 800;
     text-align: left;
     color: #66bb6a;
   }
   .j-card-sub-title {
-   font-size: 16px;
-   font-weight: 600;
-   text-align: left;
-   color: #66bb6a;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #66bb6a;
   }
   .j-card-about {
     font-size: 13px;
     text-align: left;
     color: rgb(241, 239, 239);
-   }
+  }
 
-   .about-div {
+  .about-div {
     height: 500px;
     margin-top: 100px;
-    
   }
 
   .about-info {
     width: 320px;
     font-size: 19px;
-    
   }
   .about-info-container {
     height: 400px;
@@ -297,15 +280,14 @@ code {
   .contact-handle {
     height: 250px;
     width: 320px;
-  
   }
   .contact-container {
     height: 420px;
   }
 }
 
-@media screen and (min-width :721px ) and (max-width:1069px){
-  .j-card{
+@media screen and (min-width: 721px) and (max-width: 1069px) {
+  .j-card {
     height: 1020px;
   }
 }

@@ -71,7 +71,7 @@ class App extends React.Component {
                 {" "}
                 <Nav.Link href="#"> Android </Nav.Link>{" "}
               </Link>
-              <Link
+              {/* <Link
                 activeClass="active"
                 to="projectpageweb"
                 spy={true}
@@ -81,7 +81,7 @@ class App extends React.Component {
               >
                 {" "}
                 <Nav.Link href="#"> Web </Nav.Link>{" "}
-              </Link>
+              </Link> */}
 
               <Link
                 activeClass="active"
@@ -119,7 +119,7 @@ class App extends React.Component {
           id="homepage"
         />
         <ProjectPage id="projectpage" />
-        <ProjectPageWeb id="projectpageweb" />
+        {/* <ProjectPageWeb id="projectpageweb" /> */}
         <AboutPage id="aboutpage" />
         <ContactPage id="contactpage" />
         <Footer />

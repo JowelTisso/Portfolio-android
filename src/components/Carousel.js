@@ -9,6 +9,11 @@ import ttjcparticipantsRight from "../assets/images/participantRight.png";
 import instaScrape from "../assets/images/preview_day_1.png";
 import instaScrapeLeft from "../assets/images/preview_day_2.png";
 import instaScrapeRight from "../assets/images/preview_day_3.png";
+import gyansrota from "../assets/images/gyansrota1.jpg";
+import gyansrotaLeft from "../assets/images/gyansrota2.jpg";
+import gyansrotaRight from "../assets/images/gyansrota3.jpg";
+import meet from "../assets/images/meet1.jpg";
+import meetSide from "../assets/images/meet2.jpg";
 import Card from "./Card";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
@@ -20,6 +25,42 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
+          title: "Gyansrota",
+          subTitle:
+            "An educational app for students targeting all over india with native language medium school",
+          stack: "Stack : React Native, javascript",
+          about1:
+            "This elearning app has ebook reader for student to read ebooks, " +
+            "has video player to play offline class explanations. " +
+            "Also self assessment test to keep own self right on track and much more.",
+          imgSrc: gyansrota,
+          imgSrcLeft: gyansrotaLeft,
+          imgSrcRight: gyansrotaRight,
+          playstoreLink:
+            "https://play.google.com/store/apps/details?id=in.ascosys.gyansrota",
+          githubLink: "",
+          linkcolor: "primary",
+          selected: false,
+        },
+        {
+          id: 1,
+          title: "Meet",
+          subTitle: "An ecommerce application for building materials.",
+          stack: "Stack : React Native, javascript",
+          about1:
+            "It is an ecommerce application to buy building materials with offers. " +
+            "It contains authentication and multiple api implementations.",
+          imgSrc: meet,
+          imgSrcLeft: meetSide,
+          imgSrcRight: meetSide,
+          playstoreLink:
+            "https://play.google.com/store/apps/details?id=com.arsaviva.meet",
+          githubLink: "",
+          linkcolor: "primary",
+          selected: false,
+        },
+        {
+          id: 2,
           title: "Karbi Calendar",
           subTitle: "A simple calendar in karbi language",
           stack: "Stack : Android Studio, java",
@@ -37,7 +78,7 @@ class Carousel extends React.Component {
           selected: false,
         },
         {
-          id: 1,
+          id: 3,
           title: "TTJC Participants App ( For Job Challenge )",
           subTitle: "An application for - ",
           subTitle2: "TeamTanayJobChallenge related participants",
@@ -60,7 +101,7 @@ class Carousel extends React.Component {
           selected: false,
         },
         {
-          id: 2,
+          id: 4,
           title: "InstaScrape ( For Job Challenge )",
           subTitle: "An email scraping app ",
           subTitle2: "which extracts email from instagram",
